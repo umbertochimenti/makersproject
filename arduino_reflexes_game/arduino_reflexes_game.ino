@@ -1,6 +1,5 @@
 void setup() {
   pinMode(2, INPUT_PULLUP);
-  digitalWrite(12, OUTPUT); //for buzzer
   pinMode(13, OUTPUT); //for led
   Serial.begin(9600);
 }
