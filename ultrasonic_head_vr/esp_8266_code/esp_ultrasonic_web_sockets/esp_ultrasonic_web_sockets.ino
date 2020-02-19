@@ -18,8 +18,8 @@
 #define D7 13 //IN-OUT
 
 // wifi section
-const char* ssid = "Redmi";
-const char* password = "aaaabc13";
+const char* ssid = "ssid";
+const char* password = "password";
 
 // websockets section
 using namespace websockets;
