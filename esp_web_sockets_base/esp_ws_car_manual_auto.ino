@@ -6,8 +6,8 @@
 #define D3 0
 #define D4 2
 
-const char* ssid = "Redmi";
-const char* password = "aaaabc13";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 using namespace websockets;
 WebsocketsServer server;
