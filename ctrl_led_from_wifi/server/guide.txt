@@ -1,0 +1,5 @@
+install node js
+install ws library
+connect arduino (load standard firmata)
+lanch with:
+node ctrl_led_from_wifi_ws_server.js
