@@ -1,0 +1,22 @@
+#main {
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+#ctrl_led {
+	background-color: rgb(255,0,0); /* RED */
+	border: 2px solid blue;
+	border-radius: 30px;
+	color: blue;
+	padding: 70px 100px;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+	font-weight: bold;
+	opacity: 0.6;
+	width: 300px;
+}
+
+#ctrl_led:hover {opacity: 1}
+
+
