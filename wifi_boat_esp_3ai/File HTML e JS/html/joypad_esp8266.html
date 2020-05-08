@@ -1,0 +1,30 @@
+<html> 
+	<head>
+		<!-- questeche vedete qui sotto è come se fossero delle libbrerie che rendono il codice
+		più semplice da essere svolto -->
+		<title> Web Socket Joypad </title>
+		<script src="../js/jquery-3.3.1.js"></script>
+		<script src="../js/jcanvas.js"></script>
+		<script src="../js/joypad_esp8266.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/joypad.css">
+	</head>
+	<body>
+<!-- questi invece sono i parametri per creare il nostro cursore i numeri che vedete sono i pixel-->
+<canvas id="joypadBackground" width="400" height="250" style="z-index:1" >
+<canvas id="joypadForeground" width="400" height="250" style="z-index:2"></canvas>
+</canvas>
+
+<input oninput="updateRangeInput(this)" id= "speedCtrl" type="range" orient="vertical" min="30" max="100" step="1"/>
+		
+		<ul id="eventi_websocket">
+		<!--	<button type="button" onclick="goOn()">ON</button>
+			<button type="button" onclick="goDown()">DOWN</button>
+			<button type="button" onclick="goLeft()">LEFT</button>
+			<button tyoe="button" onclick="goRight()">RIGHT</button>
+			<button type="button" onclick="stop()">STOP</button>
+			<button tyoe="button" onclick="kick()">KICK</button>-->
+		</ul>
+
+	</body> 
+</html>
+
