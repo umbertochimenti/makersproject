@@ -1,0 +1,31 @@
+<html> 
+	<head>
+		<title> wifi_car_robot controller </title>
+		<script src="../js/jquery-3.3.1.js"></script>
+		<script src="../js/jcanvas.js"></script>
+		<script src="../js/joypad.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/joypad.css">
+	</head>
+	<body>
+		<div>
+		<canvas id="joypadBackground" width="600" height="250" style="z-index:1" ></canvas>
+		<canvas id="joypadForeground" width="400" height="250" style="z-index:2"></canvas>
+
+		<h1>speed control</h1>
+		<div class="range">
+			<div class="sliderValue">
+			<span id="robot_speed" >100</span>
+			</div>
+			<div class="field">
+				<div class="value left">0</div>
+				<input type="range" min="0" max="255" value="100" steps="1">
+				<div class="value right">255</div>
+			</div>
+		</div>
+
+	</div>
+
+		<!-- <input oninput="updateRangeInput(this)" id= "speedCtrl" type="range" orient="vertical" min="30" max="100" step="1"/> -->
+		<ul id="eventi_websocket"></ul>
+	</body> 
+</html>
