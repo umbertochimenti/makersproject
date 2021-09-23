@@ -1,0 +1,9 @@
+pip install opencv-contrib-python
+pip install imagezmq
+pip install imutils
+pip install opencv-contrib-python==4.1.0.25 (for raspberry)
+
+sudo raspi-config
+Network Options
+naming your Raspberry Pis like this: pi-rover
+
